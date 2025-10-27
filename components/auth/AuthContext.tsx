@@ -3,7 +3,7 @@ import { StaffMember } from '../../types';
 import { getStaff } from '../../services/staffService';
 import { initialStaff } from '../../data/initialData'; // Fallback
 
-const CURRENT_USER_KEY = 'acunova_currentUser';
+const CURRENT_USER_KEY = 'ac_currentUser';
 
 interface AuthContextType {
   currentUser: StaffMember | null;

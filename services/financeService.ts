@@ -2,9 +2,9 @@ import { BankAccount, FinanceTransaction, Sale } from '../types';
 import { getFromStorage, saveToStorage } from './apiService';
 import { initialAccounts, initialTransactions } from '../data/initialData';
 
-const ACCOUNTS_KEY = 'acunova_accounts';
-const TRANSACTIONS_KEY = 'acunova_transactions';
-const SALES_KEY = 'acunova_sales';
+const ACCOUNTS_KEY = 'ac_accounts';
+const TRANSACTIONS_KEY = 'ac_transactions';
+const SALES_KEY = 'ac_sales';
 
 // Accounts
 export const getAccounts = (): Promise<BankAccount[]> => getFromStorage(ACCOUNTS_KEY, initialAccounts);

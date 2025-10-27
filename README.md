@@ -1,6 +1,6 @@
-# Acunova - Inventory & Finance Dashboard
+# AC Inventory - Inventory & Finance Dashboard
 
-Acunova is a comprehensive dashboard for small electronics businesses to track inventory, manage finances, and analyze supplier data in real-time. It provides key performance indicators, stock management tools, and financial reporting in a clean, responsive interface, powered by Google's Gemini AI for mock data generation.
+AC Inventory is a comprehensive dashboard for small electronics businesses to track inventory, manage finances, and analyze supplier data in real-time. It provides key performance indicators, stock management tools, and financial reporting in a clean, responsive interface, powered by Google's Gemini AI for mock data generation.
 
 This document provides the necessary specifications to set up the Google Cloud Firestore database that will serve as the backend for the application.
 

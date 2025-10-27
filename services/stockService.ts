@@ -2,9 +2,9 @@ import { Component, StockLocation, StockMovement } from '../types';
 import { getFromStorage, saveToStorage } from './apiService';
 import { initialComponents, initialLocations } from '../data/initialData';
 
-const COMPONENTS_KEY = 'acunova_components';
-const LOCATIONS_KEY = 'acunova_locations';
-const MOVEMENTS_KEY = 'acunova_movements';
+const COMPONENTS_KEY = 'ac_components';
+const LOCATIONS_KEY = 'ac_locations';
+const MOVEMENTS_KEY = 'ac_movements';
 
 // Components
 export const getComponents = (): Promise<Component[]> => getFromStorage(COMPONENTS_KEY, initialComponents);
