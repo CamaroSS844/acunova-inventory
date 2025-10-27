@@ -1,0 +1,9 @@
+/* Using a CSS file for some base styles and animations to keep things clean */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
