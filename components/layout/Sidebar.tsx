@@ -21,7 +21,7 @@ const Sidebar: React.FC = () => {
     <aside className="w-64 bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 flex flex-col flex-shrink-0">
       <div className="h-16 flex items-center justify-center px-4 border-b border-gray-200 dark:border-gray-700">
         <Bot className="h-8 w-8 text-primary-600" />
-        <h1 className="text-xl font-bold ml-2 text-gray-900 dark:text-white">Acunova</h1>
+        <h1 className="text-xl font-bold ml-2 text-gray-900 dark:text-white">AC Inventory</h1>
       </div>
       <nav className="flex-1 px-4 py-6 space-y-2">
         <NavLink to="/dashboard" className={navLinkClasses}>
@@ -64,7 +64,7 @@ const Sidebar: React.FC = () => {
         )}
       </nav>
       <div className="px-4 py-4 border-t border-gray-200 dark:border-gray-700">
-          <p className="text-xs text-gray-500 dark:text-gray-400">&copy; 2024 Acunova Inventory. Powered by Gemini.</p>
+          <p className="text-xs text-gray-500 dark:text-gray-400">&copy; 2024 AC Inventory. Powered by Gemini.</p>
       </div>
     </aside>
   );
